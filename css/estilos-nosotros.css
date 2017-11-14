@@ -1,0 +1,178 @@
+
+.logo {
+    padding: 0;
+    margin-left: 15px;
+    margin-top: 0.6%;
+}
+
+.footer {
+    background: #2a501f;
+    color: #fff;
+}
+#cabecera{
+    background-color: transparent;
+    border-bottom: 0;
+}
+#cabecera button{
+    border: 0;
+}
+#cabecera button:focus, #cabecera button:hover{
+    border: 1px solid #fff;
+    background: #2a501f;
+}
+#e-alto {
+    background-color: transparent;
+    border-bottom: 0;    
+}
+#fondo {
+    background-image: url(../img/nosotros.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #fff;
+    opacity: 0.95;
+    padding-top: 12em;
+    padding-bottom: 9em;
+    margin-bottom: 2em;
+}
+#fondo h1{
+    font-size: 40px;
+    color: #BFE6CC;
+}
+#fondo p{
+    padding: 1em;
+    margin: 0;
+    font-size: 16px;
+}
+#fondo img{
+    margin-top: 4em;
+}
+#contacto{
+    background: #445;
+    color: #fff;
+    padding: 1em;
+}
+a:link{
+    color: #ccc;
+    text-decoration: none;
+}
+#cabecera, #img-logo, #e-alto, #e-alto .btn{
+    -webkit-transition: all .5s;  
+}
+#img-logo{
+    margin-top: 12px;
+    width: 220px;
+}
+#a-img{
+   height: auto;
+}
+#cabecera, #e-alto{
+    height: 80px;
+}
+#e-alto .btn{
+    border-radius: 0;
+    color: #fff;
+    height: 80px;
+    line-height: inherit;
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+#e-alto .active .btn{
+    background-color: transparent;
+    font-weight: bold;
+}
+#e-alto li .btn{
+    color: #BFE6CC;
+    font-size: 15px;
+    font-weight: bold;
+    -ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+#e-alto li .btn:hover{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    -ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+#e-alto li.active .btn{
+    color: #fff;
+    background-color: transparent;
+    font-weight: bold;
+}
+#sociales{
+    padding: 3em;
+}
+#sociales i{
+    color: #000;
+}
+#facebook {
+    transition: all 1s ease-in;
+}
+#twitter {
+    transition: all 1s ease-in;
+}
+#youtube{
+    transition: all 1s ease-in;
+}
+#google-plus {
+    transition: all 1s ease-in;
+}
+#facebook:hover {
+    color: blue;
+    transition: all 1s ease-in-out;
+}
+#twitter:hover {
+    color: lightblue;
+    transition: all 1s ease-in-out;
+}
+#youtube:hover{
+    color: red;
+    transition: all 1s ease-in-out;
+}
+#google-plus:hover{
+    color: firebrick;
+    transition: all 1s ease-in-out;
+}
+@media (max-width: 750px ) { 
+    #cabecera{
+        height: 52px;
+    }
+    #e-alto{
+        background: #2a501f;
+        color: #fff;
+        margin-top: -1px;
+        height: auto;
+    }
+    #e-alto .btn{
+        height: 52px;
+        line-height: inherit;
+        padding-top: 1em;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .logo {
+        padding: 0;
+        margin-left: 15px;
+        margin-top: 0.6%;
+    }
+    #cabecera, #img-logo, #e-alto, #e-alto .btn{
+        -webkit-transition: all .5s;  
+    }
+    #img-logo{
+        margin-top: 0;
+        width: 165px;
+    }
+    #a-img{
+       height: auto;
+        margin-bottom: -3px;
+    }
+}
+
